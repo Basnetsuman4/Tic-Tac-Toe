@@ -53,7 +53,6 @@ const reset=()=>{
      return;
 }
 
-
     return(
         <>
         <div className="Board">
@@ -93,7 +92,6 @@ function Square({value,onSquareClick}){
         >{value}</button>
     )
 }
-
  <CalcWinner/>
 
  export default Board;
