@@ -17,7 +17,6 @@ const CalcWinner=(squares)=>{
         }
     }
     return null;
-
 }
 
 export default CalcWinner
