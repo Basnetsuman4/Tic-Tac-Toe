@@ -1,0 +1,28 @@
+.Board{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board-row{
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Square{
+    height: 80%;
+    width:30%;
+    background-color:cadetblue;
+    color:  rgb(255, 123, 0);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Board2{height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
